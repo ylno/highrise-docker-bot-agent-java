@@ -1,7 +1,7 @@
 FROM maven:3.3.9-jdk-8
 MAINTAINER Michael Frankl <mfrankl@seibert-media.net>
 
-RUN git clone https://github.com/ylno/highrise-docker-bot-agent-java.git /sources
+RUN git clone https://github.com/ylno/highrise_bot_agent_java.git /sources
 
 WORKDIR /sources
 
