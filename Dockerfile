@@ -5,6 +5,6 @@ RUN git clone https://github.com/ylno/highrise_bot_agent_java.git /sources
 
 WORKDIR /sources
 
-RUN mvn -Dmaven.test.skip=true package
+RUN mvn package
 
 CMD java -jar /sources/target/bot-agent-jar-with-dependencies.jar
